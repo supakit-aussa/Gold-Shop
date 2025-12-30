@@ -1,0 +1,113 @@
+/* ===== THEME COLORS ===== */
+:root {
+  --red: #b91c1c;
+  --red-dark: #991b1b;
+  --gold: #facc15;
+  --gold-dark: #eab308;
+  --bg: #fff7ed;
+  --card-bg: #ffffff;
+  --text: #1f2937;
+}
+
+/* ===== GLOBAL ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Sarabun", "Prompt", sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* ===== LAYOUT ===== */
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===== HEADER ===== */
+.app > h1 {
+  background: var(--red);
+  color: var(--gold);
+  padding: 18px;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+/* ===== CARD ===== */
+.card {
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid var(--red);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== TITLES ===== */
+h2 {
+  margin-top: 0;
+  color: var(--red-dark);
+  border-left: 6px solid var(--gold);
+  padding-left: 10px;
+}
+
+/* ===== TEXT ===== */
+p {
+  font-size: 1rem;
+}
+
+/* ===== INPUT ===== */
+input {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1.5px solid #d1d5db;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--gold-dark);
+}
+
+/* ===== BUTTON ===== */
+button {
+  background: linear-gradient(
+    135deg,
+    var(--gold),
+    var(--gold-dark)
+  );
+  color: #3f2d00;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== LIST ===== */
+ul {
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+
+
+
