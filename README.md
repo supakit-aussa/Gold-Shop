@@ -1,7 +1,7 @@
 
 # GoldShop Website
 
-Prototype for Dad's Shop A full-stack Gold Shop website built with FastAPI and React  This project simulates a real Thai gold shop system, including real-time gold prices, product listings, price calculation, and a gold saving feature.
+Prototype for Dad's Shop A full-stack Gold Shop website built with FastAPI and React  This project simulates a Thai gold shop system, including gold prices, product listings, price calculation, and a gold saving feature.
 
 ## Setup
 ### Backend 
